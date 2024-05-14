@@ -1,0 +1,74 @@
+/* Header Part */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #000;
+}
+
+.header .logo {
+  width: 20%;
+}
+
+.nav-items > ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  cursor: pointer;
+}
+
+/* Food card */
+
+.search {
+  padding: 20px;
+}
+
+.filter-btn {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.res-card {
+  /* display: flex; */
+  /* flex-direction: column; */
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.res-img {
+  width: 450px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.card-info h4 {
+  /* text-align: center; */
+  flex-basis: calc(50% - 10px); /* Adjust margin and padding */
+  margin-right: 10px; /* Adjust margin to create space between items */
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.footer .footerLinks,
+.footer .footerSocials {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  cursor: pointer;
+}
